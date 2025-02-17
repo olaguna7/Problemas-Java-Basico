@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /*
 Ejercicio 20: Construir un programa que obtenga el término n de la serie de Fibonacci.
 El valor de n deberá leerse por teclado. La serie de fibonacci es una secuencia de enteros
@@ -10,9 +12,6 @@ Fibonacci(n) = Fibonacci(n - 1) + Fibonacci(n - 2), si n > 1
 El programa tendrá, además del metodo main, un metodo iterativo (no usar recursividad) para calcular
 el término de la serie.
  */
-
-import java.util.Scanner;
-
 public class Ejercicio20 {
 
     // No se debe usar recursividad
