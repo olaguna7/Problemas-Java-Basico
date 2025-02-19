@@ -28,24 +28,18 @@ public class Ejercicio11 {
 
     /*
     El metodo tiene que imprimir algo asi (los # son huecos vacíos):
-                # # # # 1 # # # #   huecos vacíos excepto en (1, 5)
-                # # # 1 # 1 # # #   huecos vacíos excepto en (2, 4) y (2, 6)
-                # # 1 # 2 # 1 # #   huecos vacíos excepto en (3, 3), (3, 5) y (3, 7)
-                # 1 # 3 # 3 # 1 #   huecos vacíos excepto en (4, 2), (4, 4), (4, 6) y (4, 8)
-                1 # 4 # 6 # 4 # 1
-
+                1
+                1 1
+                1 2 1
+                1 3 3 1
+                1 4 6 4 1
+                .........
      */
 
     private static void trianguloPascal(int filas) {
         for (int i = 1; i <= filas; i++) {
-            for (int j = 1; j <= 2 * filas - 1; j++) {
-                if (j < filas - i + 1 || j > filas + i - 1) { // huecos de los lados derecho e izquierdo
-                    System.out.print("# ");
-                } else if (i % 2 != 0 && j % 2 != 0 && j >= 5 - i + 1 && j <= 5 + i - 1){
-                    System.out.print(numeroCombinatorio(i, j / 2) + " ");
-                } else {
-                    System.out.print("# ");
-                }
+            for (int j = 0; j < i; j++) {
+                System.out.print(numeroCombinatorio(i, j) + " ");
             }
             System.out.println();
         }
