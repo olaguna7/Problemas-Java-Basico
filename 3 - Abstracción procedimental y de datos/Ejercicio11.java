@@ -37,8 +37,8 @@ public class Ejercicio11 {
      */
 
     private static void trianguloPascal(int filas) {
-        for (int i = 1; i <= filas; i++) {
-            for (int j = 0; j < i; j++) {
+        for (int i = 0; i < filas; i++) {
+            for (int j = 0; j <= i; j++) {
                 System.out.print(numeroCombinatorio(i, j) + " ");
             }
             System.out.println();
