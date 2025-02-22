@@ -5,7 +5,7 @@ metodo que lea por línea de órdenes el valor de N e imprima su factorial usand
 
 import java.util.Scanner;
 
-public class Ejercicio9 {
+public class Ejercicio09 {
     final static Scanner KEYBOARD = new Scanner(System.in);
 
     private static int calcularFactorial(int numero) {
