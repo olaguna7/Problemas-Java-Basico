@@ -24,7 +24,7 @@ el caracter 1 con el caracter 5
 el caracter 2 con el caracter 4
  */
 
-public class Ejercicio5 {
+public class Ejercicio05 {
     private static boolean esPalindromo(String cadena) {
         int numeroCaracteresIguales = 0;
         for (int i = 0; i < cadena.length() / 2; i++) {
