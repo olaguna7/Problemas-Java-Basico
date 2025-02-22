@@ -6,7 +6,7 @@ anterior e imprima la sunma de los dígitos de la cadena Use el metodo printf.
 
 import java.util.Scanner;
 
-public class Ejercicio3 {
+public class Ejercicio03 {
     private static int contarNumerosCadena(String cadena) {
         int numeros = 0;
         for (int i = 0; i < cadena.length(); i++) {
