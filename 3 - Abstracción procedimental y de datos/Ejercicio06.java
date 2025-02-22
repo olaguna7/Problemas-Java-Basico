@@ -13,7 +13,7 @@ frase que sea la unión (concatenación) de esas tres cadenas.
 
 import java.util.Scanner;
 
-public class Ejercicio6 {
+public class Ejercicio06 {
     private static Scanner sc = new Scanner(System.in);
 
     private static int suma(int numero1, int numero2) {
