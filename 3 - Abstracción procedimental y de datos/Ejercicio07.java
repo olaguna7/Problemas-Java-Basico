@@ -8,7 +8,7 @@ Además, hacer un programa que, dado un año, imprima si es bisiesto usando el m
 
 import java.util.Scanner;
 
-public class Ejercicio7 {
+public class Ejercicio07 {
     final static Scanner KEYBOARD = new Scanner(System.in);
 
     private static boolean esBisiesto(int year) {
