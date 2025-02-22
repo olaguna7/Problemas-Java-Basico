@@ -6,7 +6,7 @@ nueva en el metodo main. La cadena inicial debe leerse por línea de órdenes.
 
 import java.util.Scanner;
 
-public class Ejercicio4 {
+public class Ejercicio04 {
     private static String invertirCadena(String cadena) {
         String cadenaInvertida = "";
 
