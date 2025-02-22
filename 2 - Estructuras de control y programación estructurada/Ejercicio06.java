@@ -6,7 +6,7 @@ de invertir el orden de sus cifras.
 
 import java.util.Scanner;
 
-public class Ejercicio6 {
+public class Ejercicio06 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
